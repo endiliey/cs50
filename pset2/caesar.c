@@ -22,20 +22,24 @@ int main(int argc, string argv[])
     // encrypt message with caesar cipher
     for (int i = 0, n = strlen(text); i < n; i++)
     {
-        // encryption for uppercase letter
-        if (isalpha(text[i]) && isupper(text[i]))
+        // check if its valid alphabetical character
+        if (isalpha(text[i]))
         {
-            printf("%c", ((text[i] - 'A' + key) % 26) + 'A');
-        }
-        // encryption for lowercase letter
-        else if (isalpha(text[i]) && islower(text[i]))
-        {
-            printf("%c", ((text[i] - 'a' + key) % 26) + 'a');
+            // encryption for uppercase letter
+            if (isupper(text[i]))
+            {
+                printf("%c", ((text[i] - 'A' + key) % 26) + 'A');    
+            }
+            // encryption for lowercase letter
+            else
+            {
+                printf("%c", ((text[i] - 'a' + key) % 26) + 'a');
+            }
         }
         // otherwise, just ignore it without encryption
         else
         {
-            printf("%c", text[i]);
+            printf("%c", text[i]); 
         }
     }
     printf("\n");
