@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. d x d dimension, with d between 3 - 9 (inclusive)
+1. Two-dimensional integer array
+2. greet function
+3. functions that i need to implement: init, draw, move and won
