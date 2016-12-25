@@ -1,0 +1,38 @@
+0.  BMP: 32 bit color, or over 4 billion.
+    GIF: 8 bits, 256 colors.
+    JPEG: 24 bit, 16 million.
+    PNG: 24 bit, 16 million.
+1.  GIF supports animation
+2.  Lossless compression means that as the file size is compressed, the picture quality remains the same - it can be decompressed
+    to its original quality (lossless)
+    Lossy compression means the reverse, it permanently removes the data so if the file is compressed, it can't be decompressed
+    back to its original quality (lossy)
+3.  JPEG is lossy-compressed
+4.  When the file is deleted, the information in the address table is erased, but the file itself remains on the hard drive.
+5.  Use a secure delete method. It overwrites the data with either zeros or random data so it can't be recovered
+6.  stdint.h is a header file that provide a set of typedefs that specify exact-width integer types such that programmer will be
+    able to write more portable code
+7.  It tells the compiler that you want to use the data as a desired type. 
+    uint8_t means an unsigned integer (non negative integer) with 8 bits wide. uint32_t means unsigned integer with 32 bits integer
+    while int32_t means signed integer (can be negative/positive integer) with 32 bits wide. uint16_t means unsigned integer with 16
+    bits wide.
+    It is particularly useful when you are sure that some data won't be negative and that means we can use larger range.
+8.  BYTE is 1 byte
+	DWORD is 4 bytes
+	LONG is 4 bytes
+	WORD is 2 bytes
+9.  It must be set to the signature word BM (0x4D42) to indicate bitmap.
+10. bfSize is the size, in bytes, of the bitmap file (includes the header files)
+	biSize is the number of bytes required by the BITMAPINFOHEADER structure.
+11. biHeight is negative, the bitmap is a top-down DIB (device-independent bitmap)
+	and its origin is the upper left corner.
+12. biBitCount
+13. fopen might return NULL if the file doesn't exist or the file exist but we don't have permissions to access it
+14. because our program is reading 1 struct (1 RGB triple) at a time
+15. Note that scanline for bitmap image has to be multiple of 4 byte.
+    3 pixels * 3 bytes per pixel = 9 bytes. 3 bytes are added to bring the scanline to 12 bytes.
+    So padding is equal to 3
+16. It sets our position in the file forward by the offset we specify either from the
+    beginning of the file, your current position, or the end of the file.
+17. our current position in file
+18. Rick Astley
