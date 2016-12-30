@@ -13,14 +13,14 @@ https://scratch.mit.edu/projects/137526206/#fullscreen
 ## Week 1: C
 water.c : a program to convert shower's length (in minutes) to equivalent water bottles
 ```javascript
-~/workspace/pset1 $ ./water
+~/workspace/pset1/ (master) $ $ ./water
 minutes: 10
 bottles: 120
 ```
 
 mario.c : a program that recreates half-pyramid using hashes (#) for blocks.
 ```javascript
-~/workspace/pset1 $ ./mario
+~/workspace/pset1/ (master) $ $ ./mario
 height: 8
        ##
       ###
@@ -33,7 +33,7 @@ height: 8
 ```
 greedy.c : a program to count minimum number of coins needed for a change using greedy algorithm
 ```javascript
-~/workspace/pset1 $ ./mario
+~/workspace/pset1/ (master) $ $ ./mario
 Height: -2
 Height: -1
 Height: foo
@@ -45,14 +45,14 @@ Retry: 1
 ## Week 2: Crypto
 caesar.c : a program to caesar cipher a text
 ```javascript
-~/workspace/pset2 $ ./caesar 13
+~/workspace/pset2/ (master) $ ./caesar 13
 Be sure to drink your Ovaltine!
 Or fher gb qevax lbhe Binygvar!
 ```
 
 vigenere.c : a program to vigenere cipher a text
 ```javascript
-~/workspace/pset2 $ ./vigenere bacon
+~/workspace/pset2/ (master) $ ./vigenere bacon
 Meet me at the park at eleven am
 Negh zf av huf pcfx bt gzrwep oz
 ```
@@ -60,6 +60,8 @@ Negh zf av huf pcfx bt gzrwep oz
 ## Week 3: Game of Fifteen
 fifteen.c : a game of fifteen games
 ```javascript
+~/workspace/pset3/ (master) $ ./fifteen 4
+
 15 14 13 12
 
 11 10  9  8
@@ -74,7 +76,7 @@ Tile to move:
 ## Week 4: Forensics
 whodunit.c : a program that intelligently analyze an image (clue.bmp) and turn it to a better image (verdict.bmp)
 ```javascript
-./whodunit clue.bmp verdict.bmp
+~/workspace/pset4/ (master) $ ./whodunit clue.bmp verdict.bmp
 ```
 Before running whodunit.c
 
@@ -86,7 +88,7 @@ After running whodunit.c
 
 resize.c : a program that can enlarge an image to n size
 ```javascript
-./resize 4 small.bmp large.bmp
+~/workspace/pset4/ (master) $ ./resize 4 small.bmp large.bmp
 ```
 
 Before and after running resize.c
@@ -96,7 +98,7 @@ Before and after running resize.c
 
 recover.c : a program that recovers .jpeg images from card.raw
 ```javascript
-./recover
+~/workspace/pset4/ (master) $ ./recover
 ```
 ![Image of before and after](https://s29.postimg.org/whkiz0dlj/test.png)
 
