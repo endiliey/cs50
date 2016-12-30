@@ -7,17 +7,18 @@
 4.  main() first ensures the arguments are valid and correct. It also defaultly use dictionaries/large if user doesn't specify which
     dictionary to use. It then calls getrusage() and calculate() to measure load times before and afterstarts reading a text
     The for loop in main() tries to read the text symbol-by-symbol, to read separate words. A word is completed
-    when one or more alphabetic symbols are read, and we encounted a non-alphanumeric character (like spacebar, or newline). If there
-    is a digit, or a string tends to be too long, we traverse this word and won't check it for misspellings. If not, we will check 
-    our word for misspellings, reset the word index to zero, and continue the symbol reading loop. 
+    when one or more alphabetic symbols are read, and when we encounter a non-alphanumeric character (like spacebar, or newline). If
+    there is a digit, or a string tends to be too long, we traverse this word and won't check it for misspellings. If not, we will
+    check our word for misspellings, reset the word index to zero, and continue the symbol reading loop. 
 5.  First, we must allocate a memory for a string before reading it from file, and there are no limits of a length of a word 
     in a text file. Using fscanf also cause problems with alphanumeric strings or texts containing formatting errors. This is very
     not flexible for us
 6.  Because we don't want those parameters accidentally modified in the functions. It is sort of a safety measures
 7.  I used trie structure. For each trie node, there is a boolean to indicate if this word exists, and another 27 child trie nodes
     for each letter and apostrophes
-8.  I got this working the very first time I implement it. It's as fast as it is now
-9.  I started off by implementing a trie, but I didn't convert the index of apostrophes correctly, so there's an error on the spell
-    checking. Soon, i realized that I have to make a special case for apostrophes and convert it to index 26
-10. I think my code bottleneck is the fact that i used lot of memories, but this is the tradeoff of using a trie data struccture.
-    I still think trie data structure is the best solution for this problem
+8.  At first, it was very slow because I intended to use a very simple hash function with 27 buckets which achieve O(n/27)
+9.  I improved the performance by implementing a trie instead of hashtable so that I can get a good performance on the checking, 
+    but previously I didn't convert the index of apostrophes correctly, so there's an error on the spell checking. Soon, i realized
+    that I have to make a special case for apostrophes and convert it to index 26
+10. I think the bottleneck is the fact that it used lot of memories, but this is the tradeoff of using a trie data structure.
+    However, I still think trie data structure is the best solution for this problem
