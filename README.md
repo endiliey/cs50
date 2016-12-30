@@ -80,7 +80,7 @@ Before running whodunit.c
 
 ![Image of clue](https://s30.postimg.org/gtxuk8y69/download.png)
 
-Before running whodunit.c
+After running whodunit.c
 
 ![Image of verdict](https://s30.postimg.org/p9eotmns1/download_1.png)
 
