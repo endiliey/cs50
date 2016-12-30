@@ -13,14 +13,14 @@ https://scratch.mit.edu/projects/137526206/#fullscreen
 ## Week 1: C
 water.c : a program to convert shower's length (in minutes) to equivalent water bottles
 ```javascript
-~/workspace/pset1/ (master) $ $ ./water
+~/workspace/pset1/ (master) $ ./water
 minutes: 10
 bottles: 120
 ```
 
 mario.c : a program that recreates half-pyramid using hashes (#) for blocks.
 ```javascript
-~/workspace/pset1/ (master) $ $ ./mario
+~/workspace/pset1/ (master) $ ./mario
 height: 8
        ##
       ###
@@ -33,7 +33,7 @@ height: 8
 ```
 greedy.c : a program to count minimum number of coins needed for a change using greedy algorithm
 ```javascript
-~/workspace/pset1/ (master) $ $ ./mario
+~/workspace/pset1/ (master) $ ./mario
 Height: -2
 Height: -1
 Height: foo
