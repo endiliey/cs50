@@ -7,13 +7,15 @@ class Analyzer():
         self.positives_set = set()
         file = open(positives, "r")
         for line in file:
-            self.positives_set.add(line.rstrip("\n"))
+            if line.startswith(';') == False:
+                self.positives_set.add(line.rstrip("\n"))
         file.close()
         
         self.negatives_set = set()
         file = open(negatives, "r")
         for line in file:
-            self.negatives_set.add(line.rstrip("\n"))
+            if line.startswith(';') == False:
+                self.negatives_set.add(line.rstrip("\n"))
         file.close()
 
     def analyze(self, text):
