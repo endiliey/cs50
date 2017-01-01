@@ -169,25 +169,15 @@ Negh zf av huf pcfx bt gzrwep oz
 
 Sentiments
 smile.py : a program that categorizes a word as positive or negative
-```javascript
-~/workspace/pset6/sentiments/ (master) $ ./smile love
-:)
-~/workspace/pset6/sentiments/ (master) $ ./smile hate
-:(
-~/workspace/pset6/sentiments/ (master) $ ./smile nanyang
-:|
-```
+
+[![tweets.png](https://s28.postimg.org/s3rue6s0t/tweets.png)](https://postimg.org/image/ivzlxhkyh/)
+
 tweets.py categorizes a user’s recent 100 tweets as positive or negative (uses Twitter API)
-```javascript
-~/workspace/pset6/sentiments/ (master) $ ./tweets @endijr
-0 RT @teampd101: 2. Jeon Somi!!!! #프로듀스101
-0 @lookpatilo see the green thing. click it. it is a chinese translator
-0 @teampd101 why do i keep hearing some mandarin audio on https://t.co/OLEThbvsAQ ? is it just me? previously theres none
-0 One of the busiest week ever !
-. . .
-```
+
+[![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
+
 Implement a website that generates a pie chart categorizing a user’s tweets
-[sentiments.png](https://postimg.org/image/o2ar8a7br/)
+[![sentiments.png](https://s23.postimg.org/ortjkn7vf/sentiments.png)](https://postimg.org/image/o2ar8a7br/)
 
 Usage: 
 ```javascript
