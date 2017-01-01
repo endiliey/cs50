@@ -130,9 +130,73 @@ TIME IN TOTAL:        0.16
 ```
 
 
-## Week 7
-In progress
+## Week 7 and 8: Python
+Requirements & Dependencies:
+```javascript
+cd ~/workspace/pset6/sentiments/
+pip3 install --user -r requirements.txt
+```
 
+Convert some of week 1 & 2 .c programs to .py
+```javascript
+~/workspace/pset6/ (master) $ python mario.py
+Height: 5
+    ##
+   ###
+  ####
+ #####
+######
+```
+
+```javascript
+~/workspace/pset6/ (master) $ python greedy.py
+O hai! How much change is owed?
+0.41
+4
+```
+
+```javascript
+~/workspace/pset6/ (master) $ python caesar.py 13
+HELLO
+URYYB
+```
+
+```javascript
+~/workspace/pset6/ (master) $ python vigenere.py bacon
+Meet me at the park at eleven am
+Negh zf av huf pcfx bt gzrwep oz
+```
+
+Sentiments
+smile.py : a program that categorizes a word as positive or negative
+```javascript
+~/workspace/pset6/sentiments/ (master) $ ./smile love
+:)
+~/workspace/pset6/sentiments/ (master) $ ./smile hate
+:(
+~/workspace/pset6/sentiments/ (master) $ ./smile nanyang
+:|
+```
+tweets.py categorizes a user’s recent 100 tweets as positive or negative (uses Twitter API)
+```javascript
+~/workspace/pset6/sentiments/ (master) $ ./tweets @endijr
+0 RT @teampd101: 2. Jeon Somi!!!! #프로듀스101
+0 @lookpatilo see the green thing. click it. it is a chinese translator
+0 @teampd101 why do i keep hearing some mandarin audio on https://t.co/OLEThbvsAQ ? is it just me? previously theres none
+0 One of the busiest week ever !
+. . .
+```
+Implement a website that generates a pie chart categorizing a user’s tweets
+[sentiments.png](https://postimg.org/image/o2ar8a7br/)
+
+Usage: 
+```javascript
+~/workspace/pset6/sentiments/ (master) $ export API_KEY= <insert your API_KEY from Twitter here>
+~/workspace/pset6/sentiments/ (master) $ export API_SECRET= <insert your API_SECRET from Twitter here>
+~/workspace/pset6/sentiments/ (master) $ export FLASK_APP=application.py
+~/workspace/pset6/sentiments/ (master) $ export FLASK_DEBUG=1
+~/workspace/pset6/sentiments/ (master) $ flask run --host=0.0.0.0 --port=8080
+```
 
 ## Disclaimer : I am aware that my materials might not be free of errors. I intend to correct them as I encounter it. I am still learning :)
 
