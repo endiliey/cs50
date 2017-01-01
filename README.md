@@ -170,11 +170,11 @@ Negh zf av huf pcfx bt gzrwep oz
 Sentiments
 smile.py : a program that categorizes a word as positive or negative
 
-[![tweets.png](https://s28.postimg.org/s3rue6s0t/tweets.png)](https://postimg.org/image/ivzlxhkyh/)
+[![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
 
 tweets.py categorizes a user’s recent 100 tweets as positive or negative (uses Twitter API)
 
-[![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
+[![tweets.png](https://s30.postimg.org/6c6s4ab5d/tweets.png)](https://postimg.org/image/lxo3o8n3h/)
 
 Implement a website that generates a pie chart categorizing a user’s tweets
 [![sentiments.png](https://s23.postimg.org/ortjkn7vf/sentiments.png)](https://postimg.org/image/o2ar8a7br/)
@@ -187,6 +187,9 @@ Usage:
 ~/workspace/pset6/sentiments/ (master) $ export FLASK_DEBUG=1
 ~/workspace/pset6/sentiments/ (master) $ flask run --host=0.0.0.0 --port=8080
 ```
+## Week 9: Python & SQL
+
+In progress
 
 ## Disclaimer : I am aware that my materials might not be free of errors. I intend to correct them as I encounter it. I am still learning :)
 
