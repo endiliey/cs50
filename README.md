@@ -174,7 +174,7 @@ smile.py : a program that categorizes a word as positive or negative
 
 tweets.py categorizes a user’s recent 100 tweets as positive or negative (uses Twitter API)
 
-[![tweets.png](https://s30.postimg.org/6c6s4ab5d/tweets.png)](https://postimg.org/image/lxo3o8n3h/)
+[![tweets.png](https://s23.postimg.org/xjn5x6qm3/tweets.png)](https://postimg.org/image/4u0a0jmlz/)
 
 Implement a website that generates a pie chart categorizing a user’s tweets
 [![sentiments.png](https://s23.postimg.org/ortjkn7vf/sentiments.png)](https://postimg.org/image/o2ar8a7br/)
