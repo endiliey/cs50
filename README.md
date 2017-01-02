@@ -168,6 +168,7 @@ Negh zf av huf pcfx bt gzrwep oz
 ```
 
 Sentiments
+
 smile.py : a program that categorizes a word as positive or negative
 
 [![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
@@ -208,8 +209,13 @@ Usage:
 ~/workspace/pset7/finance/ (master) $ flask run --host=0.0.0.0 --port=8080
 ~/workspace/pset7/finance/ (master) $ phpliteadmin finance.db
 ```
+## Week 10 & 11: Javascript
 
+In progress
 
+## Week 12-end: Final Project
+
+In progress
 ## Disclaimer : I am aware that my materials might not be free of errors. I intend to correct them as I encounter it. I am still learning :)
 
 
