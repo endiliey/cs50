@@ -168,6 +168,7 @@ Negh zf av huf pcfx bt gzrwep oz
 ```
 
 Sentiments
+
 smile.py : a program that categorizes a word as positive or negative
 
 [![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
@@ -189,8 +190,32 @@ Usage:
 ```
 ## Week 9: Python & SQL
 
+C$50 Finance
+Implement a website via which users can "buy" and "sell" stocks, a la the below.
+
+[![login.png](https://s29.postimg.org/9db3is4tz/login.png)](https://postimg.org/image/kpnp0kdir/)
+
+[![history.png](https://s28.postimg.org/8lwbj1hf1/history.png)](https://postimg.org/image/6hbyhyfs9/)
+
+[![register.png](https://s29.postimg.org/y3lizvo7r/register.png)](https://postimg.org/image/9abyz8577/)
+
+Requirements & Dependencies:
+```javascript
+cd ~/workspace/pset6/sentiments/
+pip3 install --user -r requirements.txt
+```
+Usage: 
+```javascript
+~/workspace/pset7/finance/ (master) $ flask run --host=0.0.0.0 --port=8080
+~/workspace/pset7/finance/ (master) $ phpliteadmin finance.db
+```
+## Week 10 & 11: Javascript
+
 In progress
 
+## Week 12-end: Final Project
+
+In progress
 ## Disclaimer : I am aware that my materials might not be free of errors. I intend to correct them as I encounter it. I am still learning :)
 
 
