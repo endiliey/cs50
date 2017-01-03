@@ -1,4 +1,4 @@
-# Harvard CS50 2016/2017X Weekly Overview 
+# Harvard CS50 2016/2017x Weekly Overview 
 
 [Link to edX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)
 
