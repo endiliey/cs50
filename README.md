@@ -221,9 +221,9 @@ pip3 install --user -r requirements.txt
 ```
 Usage: 
 ```javascript
-~/workspace/pset7/finance/ (master) $ export API_KEY=<API_KEY from Google Maps API>
-~/workspace/pset7/finance/ (master) $ flask run
-~/workspace/pset7/finance/ (master) $ phpliteadmin mashup.db
+~/workspace/pset8/mashup/ (master) $ export API_KEY=<API_KEY from Google Maps API>
+~/workspace/pset8/mashup/ (master) $ flask run
+~/workspace/pset8/mashup/ (master) $ phpliteadmin mashup.db
 ```
 
 
