@@ -216,7 +216,7 @@ Implement a website that lets users search for articles atop a map (using Google
 
 Requirements & Dependencies:
 ```javascript
-cd ~/workspace/pse8/mashup/
+cd ~/workspace/pset8/mashup/
 pip3 install --user -r requirements.txt
 ```
 Usage: 
