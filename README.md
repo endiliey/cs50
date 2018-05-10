@@ -3,7 +3,6 @@
 [Link to edX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)
 
 ## Week 0: Scratch
-[![Week 0 Project](https://s27.postimg.org/96ui8sik3/pset0.png)](https://scratch.mit.edu/projects/137526206/#fullscreen)
 
 Link to play the game that I created : 
 ```javascript
@@ -78,29 +77,16 @@ whodunit.c : a program that intelligently analyze an image (clue.bmp) and turn i
 ```javascript
 ~/workspace/pset4/ (master) $ ./whodunit clue.bmp verdict.bmp
 ```
-Before running whodunit.c
-
-![Image of clue](https://s30.postimg.org/gtxuk8y69/download.png)
-
-After running whodunit.c
-
-![Image of verdict](https://s30.postimg.org/p9eotmns1/download_1.png)
 
 resize.c : a program that can enlarge an image to n size
 ```javascript
 ~/workspace/pset4/ (master) $ ./resize 4 small.bmp large.bmp
 ```
 
-Before and after running resize.c
-
-![Image of small](https://s24.postimg.org/u4la5vqyt/small.png)
-![Image of large](https://s30.postimg.org/zevkxb49d/large.png)
-
 recover.c : a program that recovers .jpeg images from card.raw
 ```javascript
 ~/workspace/pset4/ (master) $ ./recover
 ```
-![Image of before and after](https://s29.postimg.org/whkiz0dlj/test.png)
 
 ## Week 5 and 6: Spellchecker
 ```javascript
@@ -171,14 +157,9 @@ Sentiments
 
 smile.py : a program that categorizes a word as positive or negative
 
-[![smile.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
-
 tweets.py categorizes a user’s recent 100 tweets as positive or negative (uses Twitter API)
 
-[![tweets.png](https://s23.postimg.org/xjn5x6qm3/tweets.png)](https://postimg.org/image/4u0a0jmlz/)
-
 Implement a website that generates a pie chart categorizing a user’s tweets
-[![sentiments.png](https://s23.postimg.org/ortjkn7vf/sentiments.png)](https://postimg.org/image/o2ar8a7br/)
 
 Usage: 
 ```javascript
@@ -193,12 +174,6 @@ Usage:
 C$50 Finance
 Implement a website via which users can "buy" and "sell" stocks, a la the below.
 
-[![login.png](https://s29.postimg.org/9db3is4tz/login.png)](https://postimg.org/image/kpnp0kdir/)
-
-[![history.png](https://s28.postimg.org/8lwbj1hf1/history.png)](https://postimg.org/image/6hbyhyfs9/)
-
-[![register.png](https://s29.postimg.org/y3lizvo7r/register.png)](https://postimg.org/image/9abyz8577/)
-
 Requirements & Dependencies:
 ```javascript
 cd ~/workspace/pset7/finance/
@@ -211,8 +186,6 @@ Usage:
 ```
 ## Week 10 & 11: Javascript
 Implement a website that lets users search for articles atop a map (using Google's API)
-
-[![mashup.png](https://s29.postimg.org/nejvi69pz/mashup.png)](https://postimg.org/image/ewafdu377/)
 
 Requirements & Dependencies:
 ```javascript
@@ -228,7 +201,7 @@ Usage:
 
 
 ## Week 12-end: Final Project
-In progress
+https://github.com/endiliey/rengorum
 
 ## Disclaimer : I am aware that my materials might not be free of errors. I intend to correct them as I encounter it. I am still learning :)
 
